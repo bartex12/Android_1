@@ -1,9 +1,9 @@
 package com.geekbrains.a1l1_helloworld;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void initGreetingsText() {
         TextView greetingsTextView = findViewById(R.id.greetingsTextView);
+        //формируем строку в зависимости от времени суток
         String text = new GreetingsBuilder().getGreetings(getApplicationContext());
+        //выводим строку в текстовом поле
         greetingsTextView.setText(text);
     }
 }
