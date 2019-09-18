@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">HomeWork_Lesson1</string>
+    <string name="weather_morning">Weather in the morning</string>
+    <string name="weather_afternoon">Weather in the afternoon</string>
+    <string name="weather_evening">Weather in the evening</string>
+    <string name="weather_night">Weather at night</string>
+    <string name="on">at</string>
+    <string name="weather">Weather</string>
+</resources>
