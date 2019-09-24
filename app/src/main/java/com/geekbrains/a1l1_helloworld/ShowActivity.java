@@ -24,7 +24,6 @@ public class ShowActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //В портретном и ландшафтном вариантах макета цвет текста сделан разным специально
         setContentView(R.layout.activity_main);
 
         city = getIntent().getStringExtra(ChooseActivity.CITY);
@@ -38,12 +37,6 @@ public class ShowActivity extends AppCompatActivity {
         showData();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-    }
-
     private void init(){
         textViewCity = findViewById(R.id.textViewCity);
         greetingsTextView = findViewById(R.id.greetingsTextView);
@@ -53,6 +46,9 @@ public class ShowActivity extends AppCompatActivity {
         textViewPressure = findViewById(R.id.textViewPressure);
     }
 
+    //сохранение погодных данных по городу при поворте экрана не делал в связи с
+    // учебным характером задачи. Поэтому при повороте экрана данные меняются, поскольку
+    //они рандомно формируются в showData(), вызываемом в onCreate() при повороте экрана
     private void showData() {
         String c = getResources().getString(R.string.city) + ": " + city;
         textViewCity.setText(c);
