@@ -4,7 +4,7 @@ import android.content.Context;
 
 import java.util.Random;
 
-public class PressureBuilder {
+class PressureBuilder {
 
     String getPressure(Context context){
         Random random = new Random();

@@ -22,6 +22,21 @@
     <string name="press">Pressure</string>
     <string name="rain">Rain</string>
     <string name="temper">Temperature +</string>
-    <string name="var_clauds">Partly cloudy</string>
+    <string name="var_clouds">Partly cloudy</string>
     <string name="windSpeed">Wind speed</string>
+    <string name="ChooseTown">Choose Town</string>
+
+    <string-array name="towns">
+        <item>Moscow</item>
+        <item>St.Petersburg</item>
+        <item>Novosibirsk</item>
+        <item>Yekaterinburg</item>
+        <item>Nizhniy Novgorod</item>
+        <item>Qazan</item>
+        <item>Chelyabinsk</item>
+        <item>Omsk</item>
+        <item>Samara</item>
+        <item>Rostov-on-Don</item>
+    </string-array>
+
 </resources>

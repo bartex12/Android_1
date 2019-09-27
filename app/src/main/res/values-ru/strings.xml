@@ -22,6 +22,21 @@
     <string name="press">Давление</string>
     <string name="rain">Дождь</string>
     <string name="temper">Температура +</string>
-    <string name="var_clauds">Переменная облачность</string>
+    <string name="var_clouds">Переменная облачность</string>
     <string name="windSpeed">Скорость ветра</string>
+
+    <string-array name="towns">
+        <item>Москва</item>
+        <item>Санкт_Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Нижний Новгород</item>
+        <item>Казань</item>
+        <item>Челябинск</item>
+        <item>Омск</item>
+        <item>Самара</item>
+        <item>Ростов-на-Дону</item>
+    </string-array>
+    <string name="ChooseTown">Выберите город</string>
+
 </resources>

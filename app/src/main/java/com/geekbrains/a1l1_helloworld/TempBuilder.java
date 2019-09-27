@@ -4,10 +4,7 @@ import android.content.Context;
 
 import java.util.Random;
 
-public class TempBuilder {
-
-
-    private static final String TAG = "33333";
+class TempBuilder {
 
     String getTemperature(Context context){
         Random random = new Random();
