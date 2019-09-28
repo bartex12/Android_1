@@ -6,7 +6,6 @@
     <string name="weather_night">Погода ночью</string>
     <string name="on">на</string>
     <string name="weather">Погода</string>
-    <string name="ChooseCity">Введите город</string>
     <string name="CityChoose">Выбор города</string>
     <string name="Pressure">Давление</string>
     <string name="ShowWeather">Показать погоду</string>
@@ -37,6 +36,5 @@
         <item>Самара</item>
         <item>Ростов-на-Дону</item>
     </string-array>
-    <string name="ChooseTown">Выберите город</string>
 
 </resources>

@@ -14,20 +14,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    static String TAG = "33333";
+    private static final String TAG = "33333";
 
-    private ArrayAdapter<String> adapterSpinner = null;
     private Button buttonShow;
     private CheckBox checkBoxWind;
     private CheckBox checkBoxPressure;
-
     private Spinner spinnerTowns;
     private String city = "";
-    private String[] towns =null;
 
-    static String CITY = "CITY";
-    static String WIND = "WIND";
-    static String PRESSURE = "PRESSURE";
+    static final String CITY = "CITY";
+    static final String WIND = "WIND";
+    static final String PRESSURE = "PRESSURE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +39,8 @@ public class ChooseActivity extends AppCompatActivity {
         buttonShow =  findViewById(R.id.buttonShow);
         checkBoxWind = findViewById(R.id.checkBoxWind);
         checkBoxPressure = findViewById(R.id.checkBoxPressure);
-        towns = getResources().getStringArray(R.array.towns); //получаем массив из ресурсов
-        adapterSpinner = new ArrayAdapter<>(this,
+        String[] towns = getResources().getStringArray(R.array.towns); //получаем массив из ресурсов
+        ArrayAdapter<String> adapterSpinner = new ArrayAdapter<>(this,
                 R.layout.spinner_item, towns); //ставим адаптер со своим лейаутом
         adapterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerTowns = findViewById(R.id.spinnerTowns);

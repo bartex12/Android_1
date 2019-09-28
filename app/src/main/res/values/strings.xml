@@ -6,7 +6,6 @@
     <string name="weather_night">Weather at night</string>
     <string name="on">at</string>
     <string name="weather">Weather</string>
-    <string name="ChooseCity">Input City</string>
     <string name="ShowWeather">Show Weather</string>
     <string name="WindSpeed">Speed of Wind</string>
     <string name="Pressure">Pressure</string>
@@ -24,7 +23,6 @@
     <string name="temper">Temperature +</string>
     <string name="var_clouds">Partly cloudy</string>
     <string name="windSpeed">Wind speed</string>
-    <string name="ChooseTown">Choose Town</string>
 
     <string-array name="towns">
         <item>Moscow</item>

@@ -8,17 +8,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ShowActivity extends AppCompatActivity {
 
-    static String TAG = "33333";
+    private static final String TAG = "33333";
 
-    String city = "";
-    boolean isWind;
-    boolean isPressure;
-    TextView textViewCity;
-    TextView greetingsTextView;
-    TextView textViewWhether;
-    TextView textViewTemper;
-    TextView textViewWind;
-    TextView textViewPressure;
+    private String city = "";
+    private boolean isWind;
+    private boolean isPressure;
+    private TextView textViewCity;
+    private TextView greetingsTextView;
+    private TextView textViewWhether;
+    private TextView textViewTemper;
+    private TextView textViewWind;
+    private TextView textViewPressure;
 
 
     @Override
