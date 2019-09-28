@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#80cff2da"
     tools:context=".ChooseActivity">
 
     <LinearLayout
@@ -31,14 +32,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/WindSpeed" />
+            android:text="@string/WindSpeed"
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/checkBoxPressure"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/Pressure" />
+            android:text="@string/Pressure"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/buttonShow"
@@ -46,7 +49,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="@string/ShowWeather" />
+            android:text="@string/ShowWeather"
+            android:textSize="16sp"
+            android:background="@drawable/draw"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

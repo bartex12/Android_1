@@ -50,8 +50,8 @@ public class ShowActivity extends AppCompatActivity {
     // учебным характером задачи. Поэтому при повороте экрана данные меняются, поскольку
     //они рандомно формируются в showData(), вызываемом в onCreate() при повороте экрана
     private void showData() {
-        String c = getResources().getString(R.string.city) + ": " + city;
-        textViewCity.setText(c);
+
+        textViewCity.setText(city);
 
         //формируем строку в зависимости от времени суток
         String text = new GreetingsBuilder().getGreetings(getApplicationContext());
@@ -74,6 +74,4 @@ public class ShowActivity extends AppCompatActivity {
        }
 
     }
-
-
 }

@@ -69,7 +69,7 @@ public class ChooseActivity extends AppCompatActivity {
         buttonShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //так можно получить город через спиннер
+                //а так можно получить город через спиннер
                 city =  spinnerTowns.getSelectedItem().toString();
                 boolean isWind = checkBoxWind.isChecked();
                 boolean isPressure = checkBoxPressure.isChecked();

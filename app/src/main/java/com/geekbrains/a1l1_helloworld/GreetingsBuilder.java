@@ -10,7 +10,7 @@ class GreetingsBuilder {
     private static final String TAG = "33333";
 
     String getGreetings(Context context) {
-        Calendar calendar = new GregorianCalendar();
+         Calendar calendar = new GregorianCalendar();
         int currentHour = calendar.get(Calendar.HOUR_OF_DAY);  // час через календарь теперь так
         Log.d(TAG, "currentHour = " + currentHour);
 

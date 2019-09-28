@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#80cff2da"
     tools:context=".ShowActivity">
 
     <LinearLayout
@@ -15,7 +16,8 @@
             android:id="@+id/textViewCity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="start"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:text="@string/city"
             android:textColor="@color/colorAccent"
@@ -39,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp" />
 
@@ -48,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
+            android:layout_marginBottom="8dp"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="20sp" />
 
