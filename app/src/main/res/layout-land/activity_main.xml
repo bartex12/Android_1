@@ -81,6 +81,7 @@
             android:id="@+id/addFrameLand"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:baselineAligned="false">
 
@@ -88,8 +89,9 @@
                 android:id="@+id/imageViewWhether"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/draw"
-                android:contentDescription="@string/picture"/>
+                android:layout_gravity="center"
+                android:contentDescription="@string/picture"
+                app:srcCompat="@drawable/draw" />
         </FrameLayout>
 
     </LinearLayout>
