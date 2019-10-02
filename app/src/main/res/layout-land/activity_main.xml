@@ -20,8 +20,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:text="@string/city"
-            android:textColor="@color/colorAccent"
-            android:textSize="28sp" />
+            style="@style/HeadCityStyle" />
 
         <TextView
             android:id="@+id/greetingsTextView"
@@ -32,8 +31,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/weather"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="24sp"
-            android:textStyle="italic" />
+            style="@style/GreetingCityStyle" />
 
         <TextView
             android:id="@+id/textViewWhether"
@@ -42,8 +40,7 @@
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            style="@style/WhetherCityStyle"/>
 
         <TextView
             android:id="@+id/textViewTemper"
@@ -52,8 +49,7 @@
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            style="@style/WhetherCityStyle"/>
 
         <TextView
             android:id="@+id/textViewWind"
@@ -61,8 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            style="@style/WhetherCityStyle"/>
 
         <TextView
             android:id="@+id/textViewPressure"
@@ -70,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            style="@style/WhetherCityStyle"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,10 +12,12 @@
 
         <activity
             android:name=".ShowActivity"
+            android:theme="@style/AppTheme"
             android:label="@string/WhetherInCity">
 
         </activity>
         <activity android:name=".ChooseActivity"
+            android:theme="@style/ChooseThem"
             android:label="@string/CityChoose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

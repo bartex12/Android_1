@@ -12,7 +12,7 @@
     <string name="WhetherInCity">Погода в городе</string>
     <string name="WindSpeed">Скорость ветра</string>
     <string name="city">Город</string>
-    <string name="Sun">Солнце</string>
+    <string name="Sun">Малооблачно без осадков</string>
     <string name="boom">Гроза</string>
     <string name="grad">" градусов "</string>
     <string name="little_rain">Кратковременные осадки</string>

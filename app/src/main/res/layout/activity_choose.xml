@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80cff2da"
+    android:background="@drawable/autumn2"
     tools:context=".ChooseActivity">
 
     <LinearLayout
@@ -29,29 +29,28 @@
 
         <CheckBox
             android:id="@+id/checkBoxWind"
+            style="@style/CheckBoxStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/WindSpeed"
-            android:textSize="18sp" />
+            android:text="@string/WindSpeed" />
 
         <CheckBox
             android:id="@+id/checkBoxPressure"
+            style="@style/CheckBoxStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/Pressure"
-            android:textSize="18sp" />
+            android:text="@string/Pressure" />
 
         <Button
             android:id="@+id/buttonShow"
+            style="@style/ButtonChooseStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="@string/ShowWeather"
-            android:textSize="16sp"
-            android:background="@drawable/draw"/>
+            android:text="@string/ShowWeather" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

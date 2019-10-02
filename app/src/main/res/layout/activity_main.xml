@@ -14,64 +14,57 @@
 
         <TextView
             android:id="@+id/textViewCity"
+            style="@style/HeadCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
-            android:text="@string/city"
-            android:textColor="@color/colorAccent"
-            android:textSize="28sp" />
+            android:text="@string/city" />
 
         <TextView
             android:id="@+id/greetingsTextView"
+            style="@style/GreetingCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
             android:layout_marginTop="16dp"
-            android:text="@string/weather"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="24sp"
-            android:textStyle="italic" />
+            android:text="@string/weather" />
 
         <TextView
             android:id="@+id/textViewWhether"
+            style="@style/WhetherCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textViewTemper"
+            style="@style/WhetherCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginStart="24dp"
-            android:layout_marginBottom="8dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:layout_marginBottom="8dp" />
 
         <TextView
             android:id="@+id/textViewWind"
+            style="@style/WhetherCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_marginStart="24dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:layout_marginStart="24dp" />
 
         <TextView
             android:id="@+id/textViewPressure"
+            style="@style/WhetherCityStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_marginStart="24dp"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="20sp" />
+            android:layout_marginStart="24dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
