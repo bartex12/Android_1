@@ -23,6 +23,7 @@
     <string name="temper">Temperature +</string>
     <string name="var_clouds">Partly cloudy</string>
     <string name="windSpeed">Wind speed</string>
+    <string name="picture">Whether type</string>
 
     <string-array name="towns">
         <item>Moscow</item>

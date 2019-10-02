@@ -23,6 +23,7 @@
     <string name="temper">Температура +</string>
     <string name="var_clouds">Переменная облачность</string>
     <string name="windSpeed">Скорость ветра</string>
+    <string name="picture">Тип погоды</string>
 
     <string-array name="towns">
         <item>Москва</item>

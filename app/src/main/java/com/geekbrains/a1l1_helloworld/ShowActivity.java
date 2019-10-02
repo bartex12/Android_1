@@ -1,7 +1,9 @@
 package com.geekbrains.a1l1_helloworld;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +21,7 @@ public class ShowActivity extends AppCompatActivity {
     private TextView textViewTemper;
     private TextView textViewWind;
     private TextView textViewPressure;
+    private ImageView imageViewWhether;
 
 
     @Override
@@ -38,6 +41,7 @@ public class ShowActivity extends AppCompatActivity {
     }
 
     private void init(){
+        imageViewWhether = findViewById(R.id.imageViewWhether);
         textViewCity = findViewById(R.id.textViewCity);
         greetingsTextView = findViewById(R.id.greetingsTextView);
         textViewWhether = findViewById(R.id.textViewWhether);
@@ -60,6 +64,9 @@ public class ShowActivity extends AppCompatActivity {
 
         String  textWhether = new WhetherBuilder().getWhether(getApplicationContext());
         textViewWhether.setText(textWhether);
+
+        Drawable drawable = new PictureBuilder().getDrawableIcon(getApplicationContext(),textWhether);
+        imageViewWhether.setImageDrawable(drawable);
 
         String  textTemper = new TempBuilder().getTemperature(getApplicationContext());
         textViewTemper.setText(textTemper);
