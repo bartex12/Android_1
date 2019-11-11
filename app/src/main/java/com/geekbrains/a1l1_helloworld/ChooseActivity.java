@@ -39,7 +39,7 @@ public class ChooseActivity extends AppCompatActivity {
         buttonShow =  findViewById(R.id.buttonShow);
         checkBoxWind = findViewById(R.id.checkBoxWind);
         checkBoxPressure = findViewById(R.id.checkBoxPressure);
-        String[] towns = getResources().getStringArray(R.array.towns); //получаем массив из ресурсов
+        String[] towns = getResources().getStringArray(R.array.towns); //получаем массив городов из ресурсов
         ArrayAdapter<String> adapterSpinner = new ArrayAdapter<>(this,
                 R.layout.spinner_item, towns); //ставим адаптер со своим лейаутом
         adapterSpinner.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
